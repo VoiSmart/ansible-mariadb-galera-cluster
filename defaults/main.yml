@@ -97,7 +97,7 @@ mariadb_upgrade: false
 # Defines if the galera cluster should be reconfigured
 # it will initiate cluster shutdown and bootstrap
 # common mariadb setting doesn't require this option
-galera_reconfigure_galera: true
+galera_reconfigure_galera: false
 
 # Define interface in which to bind
 # ex. eth0|eth1|enp0s3|enp0s8
