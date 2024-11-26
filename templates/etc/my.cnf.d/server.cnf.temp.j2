@@ -2,8 +2,7 @@
 binlog_format=ROW
 default_storage_engine=InnoDB
 innodb_autoinc_lock_mode=2
-datadir	= {{ mariadb_mysql_settings['datadir'] }}
-socket = {{ mariadb_login_unix_socket }}
+
 
 #
 # Allow server to accept connections on this interface
