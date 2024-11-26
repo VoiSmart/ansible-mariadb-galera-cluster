@@ -1,5 +1,5 @@
 ---
-mariadb_login_unix_socket: "/var/lib/mysql/mysql.sock"
+mariadb_login_unix_socket: "/data/mariadb/mysql.sock"
 mariadb_redhat_repo: "https://yum.mariadb.org/{{ mariadb_version }}/rhel9-amd64"
 mariadb_pre_req_packages:
   - "epel-release"
